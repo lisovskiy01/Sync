@@ -3,14 +3,6 @@ A python-written program for Linux that automatically synchronizes directories b
 
 ## How is it
 Sync creaes a tarfile with files and sends it another device, where client-Sync unpacks it and extracts the files to same directories where they were on the first device.
-```
-'/home/foo/Desktop/Report.docx' packed into a 'sync_tarfile_xx-xx.tar.xz'
-remote IP read from config
-tarfile sent to this IP
-tarfile recieved
-tarfile unpacked
-'Report.docx' extracted into '/home/bar/Desktop/Report.docx'
-```
 
 ## Requirements
 python
